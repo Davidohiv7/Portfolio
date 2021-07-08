@@ -1,0 +1,36 @@
+
+.home_intro{
+    display: flex;
+    margin: 0rem 2rem;
+}
+
+.home_intro_left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_intro_title{
+    font-size: 55px;
+    font-weight: bolder;
+    color: #123A6B;
+}
+
+.home_intro_subtitle{
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: justify;
+    padding: 0rem 3rem;
+}
+
+.home_intro_right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home_banner {
+    width: 600px;
+}

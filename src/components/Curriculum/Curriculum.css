@@ -1,0 +1,83 @@
+
+.curriculum_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.curriculum_viewer_container {
+    width: 720px;
+    height: 900px !important;
+    border-radius: 8px;
+    background-color: #133A6B;
+    margin-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.curriculum_viewer_title {
+    margin: 5px 0px;
+    font-size: 32px;
+    color: white;
+}
+
+.curriculum_slide_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.curriculum_slide_container span{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.curriculum_slider_image {
+    width: 620px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.default-nav svg{
+    fill: #d6dbdf;
+    visibility: visible;
+}
+
+.default-nav:hover svg{
+    fill: #123A6B;
+}
+
+
+.indicators{
+    transform: translateY(-2rem);
+}
+
+.indicators button::before{
+    background: #123A6B!important;
+}
+
+.curriculum_slider_arrow_left {
+    margin-right: -30px;
+}
+
+.curriculum_slider_arrow_right {
+    margin-left: -30px;
+}
+
+.curriculum_slider_arrow_left > svg, .curriculum_slider_arrow_right > svg {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+.curriculum_slider_arrow_left:hover > svg, .curriculum_slider_arrow_right:hover > svg {
+    fill: #39a2db;
+}
+
+.curriculum_slider_arrow_left:hover, .curriculum_slider_arrow_right:hover {
+    cursor: pointer;
+}

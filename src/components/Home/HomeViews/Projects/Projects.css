@@ -1,0 +1,65 @@
+
+.p_container {
+    height: 100%;   
+}
+
+.slider_container {
+    height: 100%;
+}
+
+
+.slide_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.slide_container span{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.slider_image {
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2rem 0rem;
+}
+
+.slider_image:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 15px;
+}
+
+.default-nav svg{
+    fill: #d6dbdf;
+}
+
+.default-nav:hover svg{
+    fill: #123A6B;
+}
+
+.default-nav {
+    visibility: hidden; 
+}
+
+.indicators{
+    transform: translateY(-2rem);
+}
+
+.indicators button::before{
+    background: #123A6B!important;
+}
+
+.FoodProject {
+    color: #F17B00;
+}
+
+.OnionFoodSupplier {
+    color: #CE1112;
+}
+
+.p_container:hover .default-nav {
+    visibility: visible; 
+}

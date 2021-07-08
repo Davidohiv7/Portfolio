@@ -1,0 +1,111 @@
+.home_options_selector{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_options_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_options_option > button{
+    background-color: #123A6B;
+    border: 0px;
+    font-size: 32px;
+    color: #E8F0F2;
+    margin-bottom: 8px;
+}
+
+.home_options_option > button:hover{
+    cursor: pointer;
+    color: #09AFF7;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(-200%, 0px)
+    }
+    100% {
+        transform: translate(0%, 0px)
+    }
+}
+
+@keyframes slideInvert {
+    0% {
+        transform: translate(200%, 0px)
+    }
+    100% {
+        transform: translate(0%, 0px)
+    }
+}
+
+@keyframes longSlide {
+    0% {
+        transform: translate(-400%, 0px)
+    }
+    100% {
+        transform: translate(0%, 0px)
+    }
+}
+
+@keyframes longSlideInvert {
+    0% {
+        transform: translate(400%, 0px)
+    }
+    100% {
+        transform: translate(0%, 0px)
+    }
+}
+
+.home_options_option_div_selectedNoAnim {
+    border-radius: 4px 4px 0px 0px ;
+    height: 8px;
+    background-color: #09AFF7;
+    width: 12rem;
+}
+
+.home_options_option_div_selected {
+    border-radius: 4px 4px 0px 0px ;
+    height: 8px;
+    background-color: #09AFF7;
+    width: 12rem;
+    animation-name: slide;
+    animation-duration: 0.5s
+}
+
+.home_options_option_div_selectedInverted {
+    border-radius: 4px 4px 0px 0px ;
+    height: 8px;
+    background-color: #09AFF7;
+    width: 12rem;
+    animation-name: slideInvert;
+    animation-duration: 0.5s
+}
+
+.home_options_option_div_longSelected {
+    border-radius: 4px 4px 0px 0px ;
+    height: 8px;
+    background-color: #09AFF7;
+    width: 12rem;
+    animation-name: longSlide;
+    animation-duration: 1s
+}
+
+.home_options_option_div_longSelectedInverted {
+    border-radius: 4px 4px 0px 0px ;
+    height: 8px;
+    background-color: #09AFF7;
+    width: 12rem;
+    animation-name: longSlideInvert;
+    animation-duration: 1s
+}
+
+
+.home_options_option_div_not_selected {
+    height: 8px;
+    background-color: #123A6B;
+    width: 12rem;
+}
+

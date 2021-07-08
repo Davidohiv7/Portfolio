@@ -1,0 +1,15 @@
+.views_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.views_option_container{
+    width: 900px;
+    height: 570px;
+    background-color: white;
+    margin: 4rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
