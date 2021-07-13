@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 import './Curriculum.css';
+import './CurriculumResponsive.css';
 
 import { Zoom } from 'react-slideshow-image';
 
