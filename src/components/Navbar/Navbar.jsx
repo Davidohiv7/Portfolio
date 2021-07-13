@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import './NavbaResponsive.css';
 
-import davidIcon from '../../utils/icons/david.png'
+import Logo from './Logo/Logo'
+
 import { IoHomeOutline } from "react-icons/io5";
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineDocumentReport } from "react-icons/hi";
@@ -11,7 +13,8 @@ export default function Navbar() {
     return (
         <div className='navbar_container'>
             <Link className='navbar_link' to={'/'}>
-                <img src={davidIcon} alt='navbar_logo' className='navbar_logo'/>
+                <Logo svgClass='navbar_logo' fillColor='#0C294E'/>
+                <Logo svgClass='navbar_logo_responsive' fillColor='#E8F0F2'/>
             </Link>
             <div className='links_container'>
                 <Link className='navbar_link' to={'/'}>

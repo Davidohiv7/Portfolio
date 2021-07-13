@@ -5,6 +5,7 @@ import HomeOptions from './HomeOptions/HomeOptions'
 import HomeViews from './HomeViews/HomeViews'
 
 import './Home.css';
+import './HomeResponsive.css';
 
 
 export default function Home() {

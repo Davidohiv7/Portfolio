@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './TechSkills.css';
+import './TechSkillsResponsive.css';
 
 //Languages
 import jsIcon from '../../../../utils/icons/techskills/javascript.png';

@@ -1,0 +1,49 @@
+@media only screen and (max-width: 800px) {
+
+    .navbar_container{
+        padding: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0C294E;
+    }
+
+    .navbar_logo{
+        width: 4rem;
+        height: 4rem;
+        display: none;
+    }
+    
+    .navbar_logo_responsive{
+        width: 4rem;
+        height: 4rem;
+        display: initial;
+    }
+
+
+    .links_container{
+        width: 90%;
+        margin-left: 0rem;
+        margin: 0rem 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar_link{
+        font-size: 1rem;
+        color: #E8F0F2;
+    }
+
+    .navbar_link > span{
+        margin-left: 0px;
+    }
+    
+    .navbar_link_icon {
+        display: none;
+    }
+
+}

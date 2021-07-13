@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+
+    .home_options_container{
+        height: 250px;
+    }
+    
+    .home_options_title{
+        font-size: 42px;
+    }
+
+}
+
+  

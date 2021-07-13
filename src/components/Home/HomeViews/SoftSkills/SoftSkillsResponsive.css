@@ -1,0 +1,23 @@
+@media only screen and (max-width: 800px) {
+    .sf_title {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 1rem 0rem;
+    }
+
+    .sf_content_first, .sf_content_second {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .sf_content_first {
+        margin-left: 8%;
+    }
+    
+    .sf_content_second {
+        margin-right: 8%;
+    }
+
+}
+
+  

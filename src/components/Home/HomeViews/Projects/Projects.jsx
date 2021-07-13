@@ -3,6 +3,7 @@ import React from 'react';
 import { Zoom } from 'react-slideshow-image';
 
 import './Projects.css'
+import './ProjectsResponsive.css'
 import "react-slideshow-image/dist/styles.css";
 
 import food_project_image from '../../../../utils/home/projects/food_project.png'

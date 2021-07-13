@@ -3,6 +3,7 @@ import React from 'react';
 import davidBanner from '../../../utils/home/davidhome.png'
 
 import './HomeIntro.css';
+import './HomeIntroResponsive.css';
 
 
 export default function HomeIntro() {

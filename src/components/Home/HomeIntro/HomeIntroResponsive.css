@@ -1,0 +1,30 @@
+@media only screen and (max-width: 800px) {
+
+    .home_intro{
+        margin: 0rem;
+    }
+
+    .home_intro_right{
+        display: none;
+    }
+
+    .home_intro_left{
+
+    }
+
+    .home_intro_title{
+        font-size: 30px;
+        font-weight: bolder;
+        color: #123A6B;
+    }
+
+    .home_intro_subtitle{
+        font-size: 24px;
+        font-weight: normal;
+        text-align: justify;
+        padding: 0rem 1rem;
+    }
+
+}
+
+  

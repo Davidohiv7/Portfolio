@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './HomeViews.css';
+import './HomeViewsResponsive.css';
 
 import TechSkills from './TechSkills/TechSkills'
 import SoftSkills from './SoftSkills/SoftSkills'

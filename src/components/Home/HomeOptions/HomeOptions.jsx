@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './HomeOptions.css';
+import './HomeOptionsResponsive.css';
 
 import Selector from './Selector/Selector'
 

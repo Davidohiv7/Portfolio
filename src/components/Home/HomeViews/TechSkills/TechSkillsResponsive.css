@@ -1,0 +1,42 @@
+@media only screen and (max-width: 800px) {
+    .left {
+        display: none;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 1rem 0rem;
+    }
+
+    .content {
+        height: 100%;
+        display: flex;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    .content_title {
+        font-size: 14px;
+    }
+
+    .content_item > span {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .content_item > img {
+        width: 24px;
+    }
+
+    .image_size {
+        width: 18px !important;
+        margin-left: 2px !important;
+    }
+
+    .span_size {
+        margin-left: 8px !important;
+    }
+
+}
+
+  

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './SoftSkills.css';
+import './SoftSkillsResponsive.css';
 
 export default function SoftSkills() {
 

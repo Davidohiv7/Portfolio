@@ -1,0 +1,32 @@
+@media only screen and (max-width: 800px) {
+
+    .slide_container span{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 1rem 0rem;
+        width: 90%;
+    }
+
+    .slider_image {
+        width: 90%;
+        margin: 3rem 0rem;
+    }
+
+    .indicators{
+        transform: translateY(0rem);
+        padding: 0rem;
+    }
+
+    .default-nav {
+        visibility: visible;
+        width: 8px;
+    }
+
+    .default-nav svg{
+        fill: #123A6B;
+        width: 8px;
+    }
+
+}
+
+  

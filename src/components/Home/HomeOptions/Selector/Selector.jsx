@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import './Selector.css';
+import './SelectorResponsive.css';
 
 
 export default function Selector( {option, setOption} ) {
