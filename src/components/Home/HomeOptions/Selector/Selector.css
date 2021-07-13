@@ -8,7 +8,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+}    
+
+.home_options_option_selected button{
+    transition: text-shadow 1s;
+    text-shadow: 0 0 10px #bbd8f8;
 }
+
 
 .home_options_option > button{
     background-color: #123A6B;
@@ -90,7 +97,7 @@
     background-color: #09AFF7;
     width: 12rem;
     animation-name: longSlide;
-    animation-duration: 1s
+    animation-duration: 0.5s
 }
 
 .home_options_option_div_longSelectedInverted {
@@ -99,7 +106,7 @@
     background-color: #09AFF7;
     width: 12rem;
     animation-name: longSlideInvert;
-    animation-duration: 1s
+    animation-duration: 0.5s
 }
 
 

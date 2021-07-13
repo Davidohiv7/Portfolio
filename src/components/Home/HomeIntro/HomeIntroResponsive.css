@@ -2,15 +2,9 @@
 
     .home_intro{
         margin: 0rem;
+        flex-direction: column;
     }
 
-    .home_intro_right{
-        display: none;
-    }
-
-    .home_intro_left{
-
-    }
 
     .home_intro_title{
         font-size: 30px;
@@ -23,6 +17,10 @@
         font-weight: normal;
         text-align: justify;
         padding: 0rem 1rem;
+    }
+
+    .home_banner {
+        width: 60%;
     }
 
 }

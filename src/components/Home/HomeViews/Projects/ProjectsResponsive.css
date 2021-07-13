@@ -23,7 +23,7 @@
     }
 
     .default-nav svg{
-        fill: #123A6B;
+        fill: #123A6B!important;
         width: 8px;
     }
 

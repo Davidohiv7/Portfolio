@@ -5,6 +5,11 @@
         margin-bottom: 8px;
     }
 
+    .home_options_option_selected {
+        transition: text-shadow 0.4s;
+        text-shadow: 0 0 5px #bbd8f8;
+    }
+
 
 
     @keyframes slide {
@@ -45,36 +50,47 @@
 
     .home_options_option_div_selectedNoAnim {
         width: 7rem;
+        border-radius: 2px;
+        height: 4px;
     }
 
     .home_options_option_div_selected {
         width: 7rem;
         animation-name: slide;
-        animation-duration: 0.5s
+        animation-duration: 0.3s;
+        border-radius: 2px;
+        height: 4px;
     }
 
     .home_options_option_div_selectedInverted {
         width: 7rem;
         animation-name: slideInvert;
-        animation-duration: 0.5s
+        animation-duration: 0.3s;
+        border-radius: 2px;
+        height: 4px;
     }
 
     .home_options_option_div_longSelected {
         width: 7rem;
         animation-name: longSlide;
-        animation-duration: 1s
+        animation-duration: 0.3s;
+        border-radius: 2px;
+        height: 4px;
     }
 
     .home_options_option_div_longSelectedInverted {
         width: 7rem;
         animation-name: longSlideInvert;
-        animation-duration: 1s
+        animation-duration: 0.3s;
+        border-radius: 2px;
+        height: 4px;
     }
 
     .home_options_option_div_not_selected {
         height: 8px;
         background-color: #123A6B;
         width: 7rem;
+        height: 4px;
     }
 
 }

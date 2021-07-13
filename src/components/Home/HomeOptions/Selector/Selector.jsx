@@ -22,19 +22,19 @@ export default function Selector( {option, setOption} ) {
 
     return (
         <div className='home_options_selector'>
-            <div className='home_options_option'>
+            <div className={`home_options_option ${option === 'techSkills' ? 'home_options_option_selected' : undefined}`}>
                 <button onClick={e => handleClick(e, 'techSkills')}>
                     Tech Skills
                 </button>
                 <div className={option === 'techSkills' ? selectorClass : 'home_options_option_div_not_selected'}/>
             </div>
-            <div className='home_options_option'>
+            <div className={`home_options_option ${option === 'projects' ? 'home_options_option_selected' : undefined}`}>
                 <button onClick={e => handleClick(e, 'projects')}>
                     Projects
                 </button>
                 <div className={option === 'projects' ? selectorClass : 'home_options_option_div_not_selected'}/>
             </div>
-            <div className='home_options_option'>
+            <div className={`home_options_option ${option === 'softSkills' ? 'home_options_option_selected' : undefined}`}>
                 <button onClick={e => handleClick(e, 'softSkills')}>
                     Soft Skills
                 </button>
