@@ -6,7 +6,7 @@ import './SoftSkillsResponsive.css';
 export default function SoftSkills() {
 
     const softSkillsArray = [ 'Communication', 'Discipline', 'Teamwork', 'Adaptability', 'Problem-solving', 
-    'Logical thinking', 'Work ethic', 'Critical thinking', 'Self-motivated', 'Learning willingness', ]
+    'Logical thinking', 'Work ethic', 'Critical thinking', 'Self-motivated', 'Eagerness to learn', ]
 
     return (
         <div className='sf_container'>
